@@ -1,0 +1,216 @@
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199px) {
+    .hero-area img {
+        max-width: 460px;
+    }
+    .hero-area .hero-content h2 {
+        font-size: 4rem;
+        line-height: 4.5rem;
+    }
+    .hero-area {
+        height: 615px;
+        padding-top: 20px;
+    }
+    .thumbnail {
+        min-height: 245px;
+    }
+    .thumbnail img {
+        max-width: 220px;
+    }
+    .btn {
+        padding: 18px 15px;
+    }
+    .product-2 .thumbnail img {
+        max-width: 245px;
+    }
+    .services-area .service-image img {
+        max-width: 460px;
+    }
+    .services-area .single-service-item {
+        margin-right: -35px;
+    }
+}
+
+/*// All devices below 991px*/
+@media (max-width: 991px) {
+    .header-area {
+        padding: 22px 0;
+    }
+    .header-area .col {
+        position: absolute;
+        top: 80px;
+        background: #363958;
+        width: 690px;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+    }
+    .navbar {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .navbar-toggler {
+        position: absolute;
+        right: -15px;
+        top: -54px;
+        padding: 0;
+        border: 0;
+    }
+    .navbar-toggler:focus {
+        border: 0;
+        box-shadow: none;
+    }
+    .navbar-toggler-icon .bar {
+        width: 30px;
+        height: 4px;
+        background: #000000;
+        display: block;
+        margin: 4px 0;
+        border-radius: 50px;
+    }
+    .navbar-toggler-icon .bar.bar2 {
+        width: 22px;
+        margin-left: 7px;
+        position: relative;
+    }
+    .navbar-toggler-icon .bar.bar2:after {
+        position: absolute;
+        left: -7px;
+        top: 0;
+        width: 4px;
+        height: 4px;
+        background: #000000;
+        content: "";
+        border-radius: 50px;
+    }
+    .header-area .mainmenu ul.navbar-nav li.nav-item a.nav-link {
+        padding: 10px 10px;
+        color: #fff;
+        border-bottom: 1px solid #333;
+    }
+
+    /* hero area */
+    .hero-area img {
+        max-width: 100%;
+    }
+    .hero-area .hero-content h2 {
+        font-size: 3rem;
+        line-height: 3.5rem;
+    }
+    .hero-area br {
+        display: none;
+    }
+    .section-title {
+        font-size: 2rem;
+        text-align: center;
+    }
+    .single-product-box {
+        margin-bottom: 30px;
+    }
+    .services-area .service-image img {
+        max-width: 100%;
+        margin-bottom: 40px;
+    }
+    .services-area .single-service-item {
+        margin-right: 0;
+    }
+    .single-footer-widget {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .signup-form.mt-5 {
+        margin-top: 20px !important;
+    }
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .hero-area {
+        height: 480px;
+    }
+    .hero-area .hero-content {
+        padding: 0;
+        margin-top: 34px;
+    }
+}
+
+@media (max-width: 767px) {
+    .hero-area .col-md-6:nth-child(1) {
+        order: 2;
+    }
+    .copyright-text {
+        flex-wrap: wrap;
+    }
+    .copyright-text .copyright-left,
+    .copyright-text .copyright-right {
+        width: 100%;
+        text-align: center;
+    }
+    .copyright-left {
+        margin-bottom: 10px;
+    }
+    .hero-area {
+        height: auto;
+        padding: 20px 0 70px;
+    }
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767px) {
+    .header-area .col {
+        width: 510px;
+    }
+    .hero-area .hero-content {
+        padding: 55px 0 0 0px;
+    }
+    .hero-area img {
+        max-width: 360px;
+    }
+    .hero-area {
+        padding: 50px 0 70px;
+    }
+}
+
+@media (max-width: 575px) {
+    .hero-area .hero-content {
+        padding: 80px 0 0 0px;
+    }
+    .thumbnail img,
+    .product-2 .thumbnail img {
+        max-width: 100%;
+    }
+    .thumbnail {
+        min-height: 315px;
+    }
+    .form-group {
+        width: 300px;
+    }
+    .signup-form input[type="email"],
+    .signup-form button {
+        width: 220px;
+    }
+    .signup-form button {
+        width: 80px;
+    }
+    .header-area .col {
+        width: 92%;
+    }
+    .single-service-item {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .single-service-item .service-left {
+        margin-bottom: 15px;
+    }
+    .single-service-item .service-left,
+    .single-service-item .service-left {
+        width: 100%;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 575px) {
+}

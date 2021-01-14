@@ -1,0 +1,310 @@
+Body {
+    color: #3e3e3e;
+    font-family: "Roboto", sans-serif;
+}
+
+img {
+    max-width: 100%;
+    width: auto;
+}
+.btn:focus {
+    color: #fff;
+    background-color: #0b5ed7;
+    border-color: none;
+    box-shadow: none;
+    border: 0;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+/* Common CSS */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Bebas Neue", cursive;
+    color: #363958;
+    margin-bottom: 15px;
+}
+.section-title {
+    font-size: 48px;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.btn {
+    background-image: -webkit-linear-gradient(#3d4ff2, #3644bf);
+    background-image: linear-gradient(#3d4ff2, #3644bf);
+    border: 0;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 18px 36px;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    border-radius: 10px;
+}
+.btn:hover {
+    color: #fff;
+    background-image: -webkit-linear-gradient(#3644bf, #3d4ff2);
+    background-image: linear-gradient(#3644bf, #3d4ff2);
+}
+.btn i {
+    font-size: 15px;
+    margin-right: 5px;
+}
+.section-padding {
+    padding: 50px 0;
+}
+.card {
+    border: 0;
+}
+.card-body {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 16px 8px;
+    padding: 1rem 0.5rem;
+}
+.card .card-footer {
+    background: #fff;
+    border: 0;
+    padding: 0px 8px;
+    padding: 0rem 0.5rem;
+}
+.custom-box-shadow {
+    box-shadow: 0px 0px 24px -8px rgba(204, 204, 204, 0.9);
+}
+.thumbnail {
+    background-color: #f1f1f1;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    min-height: 330px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.thumbnail img {
+    max-width: 300px;
+}
+.price-tag {
+    font-size: 35.2px;
+    font-size: 2.2rem;
+    font-weight: 900;
+    color: #fa804c;
+}
+
+/* ---------.header-area css----------  */
+.header-area .logo img {
+    max-width: 55px;
+}
+.header-area .logo a {
+    color: #363958;
+    font-size: 24px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.header-area .logo a span {
+    color: #fa804c;
+}
+.header-area {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 30px 0;
+}
+.header-area .mainmenu ul.navbar-nav li.nav-item a.nav-link {
+    color: #3c3c3c;
+    font-weight: 500;
+    padding: 0px 25px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.header-area .mainmenu ul.navbar-nav li.nav-item:hover a.nav-link {
+    color: #fa804c;
+}
+
+/* .hero-area */
+.hero-area {
+    background-color: #fff9f4;
+    height: 715px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.hero-area img {
+    max-width: 510px;
+}
+.hero-area .hero-content {
+    padding: 100px 0 0 50px;
+}
+.hero-area .hero-content h2 {
+    font-size: 80px;
+    font-size: 5rem;
+    line-height: 88px;
+    line-height: 5.5rem;
+}
+.hero-area .hero-content h2 span {
+    display: block;
+    color: #fa804c;
+}
+.hero-area .hero-content .btn {
+    margin-top: 10px;
+}
+
+.single-product-box {
+    border-radius: 20px;
+    padding: 20px;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.single-product-box.custom-box-shadow:hover {
+    box-shadow: 0px 0px 14px 8px rgba(204, 204, 204, 0.81);
+}
+.single-product-box h3 {
+    font-size: 24px;
+    font-size: 1.5rem;
+}
+
+/* .product-2  */
+.product-2 .thumbnail {
+    background: #fff;
+}
+.product-2 .thumbnail img {
+    max-width: 335px;
+}
+
+/* services-area */
+.services-area {
+    margin-bottom: 50px;
+}
+.services-area .single-service-item {
+    border-radius: 20px;
+    padding: 25px;
+    margin-right: 36px;
+    margin-bottom: 20px;
+    color: #3e3e3e;
+    display: inline-block;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.services-area .single-service-item:hover {
+    background-color: #fa804c;
+    color: #fff;
+}
+.services-area .single-service-item:hover h3 {
+    color: #fff;
+}
+.services-area .single-service-item img {
+    max-width: 80px;
+}
+.services-area .single-service-item h3 {
+    font-size: 24px;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.services-area .single-service-item p {
+    margin: 0;
+}
+.services-area .single-service-item .service-left {
+    margin-right: 15px;
+}
+.services-area .single-service-item:last-child {
+    margin-bottom: 0;
+}
+.services-area .service-image img {
+    max-width: 600px;
+}
+
+/* .footer-area */
+.footer-area {
+    background-color: #f4f4f4;
+    padding: 60px 0 0;
+    font-size: 14px;
+}
+.footer-area .single-footer-widget h3 {
+    font-size: 19.2px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+.footer-area .single-footer-widget ul li a {
+    color: #3c3c3c;
+    margin-bottom: 10px;
+    display: inline-block;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.footer-area .single-footer-widget ul li a:hover {
+    color: #fa804c;
+    padding-left: 5px;
+}
+.footer-area .social-icons a {
+    width: 30px;
+    height: 30px;
+    background: #fa804c;
+    display: inline-block;
+    text-align: center;
+    border-radius: 5px;
+    color: #fff;
+    line-height: 32px;
+    margin-right: 5px;
+}
+.signup-form input[type="email"],
+.signup-form button {
+    border: 0;
+    height: 50px;
+    line-height: 50px;
+    width: 260px;
+}
+input[type="email"]:focus {
+    outline: 0;
+}
+.form-group {
+    width: 350px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+.signup-form button {
+    width: 90px;
+    background: #282828;
+    color: #fff;
+    border-radius: 0 10px 10px 0;
+}
+.signup-form input[type="email"] {
+    border-radius: 10px 0 0 10px;
+    padding: 12px;
+}
+.copyright-text p {
+    margin: 0;
+}
+.copyright-text {
+    padding: 20px 0;
+    border-top: 1px solid #ddd;
+}
+.copyright-text a {
+    color: #3e3e3e;
+    margin-right: 10px;
+}
+.copyright-text a:hover {
+    color: #fa804c;
+}
